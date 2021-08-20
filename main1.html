@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SAAF</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">SAAF</a>
+    <button class="btn btn-success btn-lg float-right" 
+                        type="Find me!">
+                     Find me!
+                </button>
+
+<p id="location"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+  </div>
+</nav>
+</head>
+<body>
+	<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-red bg-red">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+</ul>
+</div>
+</nav>
+<div class="jumbotron ">
+ 
+  <h1 class="display-4">WELCOME TO SMART AGRICULTURE ASSISTANT FARMING</h1>
+  
+  <a class="btn btn-dark" href="#" role="button">An Innovative Crop Management System</a>
+</div>
+<div class="container1">
+  
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvNJFPWWQV7zRBMGLRz4108JQj4At2Tl8Bw&usqp=CAU" >
+      
+      <div class="card-footer">
+       <a href="signup.html" class="btn btn-warning btn-lg">REGISTER</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://elements-video-cover-images-0.imgix.net/files/190931133/preview.jpg?auto=compress&crop=edges&fit=crop&fm=jpeg&h=800&w=1200&s=29c710be2245263950df139c137ee1ff" >
+      
+      <div class="card-footer">
+        <a href="crop.html" class="btn btn-warning btn-lg">CROP REQUIREMENTS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.world-grain.com/ext/resources/Article-Images/2020/04/Red-Wheat_photo-cred-adobe-stock_E.jpg?1586449661" >
+      
+      <div class="card-footer">
+        <a href="preferred.html" class="btn btn-warning btn-lg">PREFERRED CROPS</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+  <!-- Content here -->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://pbs.twimg.com/media/EovDlSGU0AUC8jL.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-footer">
+        <a href="weather.html" class="btn btn-warning btn-lg">WEATHER MONITORING AND PEST DETECTION</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://i0.wp.com/businessyield.com/wp-content/uploads/2021/01/Strategic-Financial-Management.jpg?fit=1200%2C800&ssl=1" class="card-img-top" alt="...">
+      
+      <div class="card-footer">
+       <a href="farm.html" class="btn btn-warning btn-lg">FARM ECONOMICS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://bisouv.com/wp-content/uploads/2021/04/growth-hacking-2899886_1280-1200x800.png" class="card-img-top" alt="...">
+      <
+      <div class="card-footer">
+        <a href="farmanalytics.html" class="btn btn-warning btn-lg">FARM ANALYTICS AND REPORTS</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+  <!-- Content here -->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <!-- <div class="col">
+    <div class="card h-100">
+      <img src="https://www.zdnet.com/a/hub/i/r/2020/12/16/edc17306-9bbb-44d8-9ae3-bd4e1ee7ad80/resize/1200x900/eaa8a6c2b2b4a69d9e4d2eb6904f96b2/istock-1193723992.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-footer">
+        <a href="signup.html" class="btn btn-warning btn-lg">PREDICTIONS USING ML</a>
+      </div>
+    </div>
+  </div> -->
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.techrepublic.com/a/hub/i/r/2017/04/21/3467d1bc-317e-4eea-8a83-f6bf7d62c120/resize/1200x/a26d2de008dc744c89f1f9a1ea2f2998/farmer-with-tablet.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-footer">
+       <a href="Sensors.html" class="btn btn-warning btn-lg">SENSORS</a>
+      </div>
+    </div>
+  </div> 
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://viajeologia.mx/wp-content/uploads/2020/02/bookNow.gif" class="card-img-top" alt="...">
+      <
+      <div class="card-footer">
+        <a href="booking.html" class="btn btn-warning btn-lg">BOOKING</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="irctc.css">
+</body>
+<footer  style="background-color: #2c292f">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+                    
+                    <div class="py-0">
+                        <h3 class="my-4 text-white"><span class="mx-2 font-italic text-warning "> NEED HELP</span></h3>
+                        <a href="farmanalytics.html" class="btn btn-warning btn-lg">Contact Us</a>
+                        
+                        
+
+                        
+                        
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>  
+        </div>
+     </footer>
+</div>
+</div>
+</body>
+</html>
+
+
+      
+
